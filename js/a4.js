@@ -16,7 +16,7 @@ const init = () => {
     // console.log('размер', window.innerHeight)
     if(window.innerWidth >= 1280) {
       document.querySelector('.hero__img').classList.remove('d-none')
-      qr.from('.img-js', 1, {scale: 4, duration: 2, y: "0", x: "0"})
+      qr.from('.img-js', 1, {scale: 4, opacity:0, duration: 2, y: "0", x: "0"})
     }
     qr.from('.hero__title', {opacity: 0, y: "-50", duration: 0.7, stagger: .5 })
     qr.from('.hero__el', {opacity: 0, y: 25, duration: 0.7})

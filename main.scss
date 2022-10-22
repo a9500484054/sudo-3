@@ -67,6 +67,12 @@
 .bg--grey {
     background: #F4F5F8;
 }
+.bg--white {
+    background-color: #fff!important;
+}
+.bg--2931 {
+    background-color: #272931!important;
+}
 
 .border-t {
     border-top: 3px solid #B1B1B1;
@@ -464,3 +470,36 @@
     }
 }
 
+@media (min-width: 1280px) {
+    .ps-40 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .ps-100 {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .index-about__block-one h2 {
+        padding-right: 20px;
+    }
+    .index-mission__text {
+        padding-right: 50px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .ps-40 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ps-100 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .index-about__block-one h2 {
+        padding-right: 0;
+    }
+    .index-mission__text {
+        padding-right: 0;
+    }
+}
