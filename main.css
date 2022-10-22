@@ -3259,6 +3259,10 @@ input[type="radio"].visually-hidden {
   margin-top: 15px;
 }
 
+.mt-40 {
+  margin-top: 40px;
+}
+
 .mt-85 {
   margin-top: 85px;
 }
