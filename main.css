@@ -3702,7 +3702,7 @@ input[type="radio"].visually-hidden {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1480px) {
   .ps-40 {
     padding-left: 0;
     padding-right: 0;
