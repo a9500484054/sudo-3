@@ -293,7 +293,11 @@
     
         color: #FFFFFF;
     }
-
+    .header { 
+        &__menu {
+            z-index: 9999999999999 !important;
+        }
+    }
 
 
 

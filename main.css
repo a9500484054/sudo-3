@@ -1014,6 +1014,9 @@ input[type="radio"].visually-hidden {
   .header__menu-btn {
     display: none;
   }
+  .header__menu {
+    z-index: 9999999999999;
+  }
   .menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1074,6 +1077,7 @@ input[type="radio"].visually-hidden {
   .menu__link-list:hover + .menu__list-2 {
     height: auto;
     padding: 20px 15px 15px;
+    z-index: 99999999999999999999999;
   }
   .menu__link-list {
     display: block;
@@ -3510,6 +3514,9 @@ input[type="radio"].visually-hidden {
     letter-spacing: 0.02em;
     text-transform: uppercase;
     color: #FFFFFF;
+  }
+  .header__menu {
+    z-index: 9999999999999 !important;
   }
   .card-box {
     height: auto;

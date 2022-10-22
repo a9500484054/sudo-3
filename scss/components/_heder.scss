@@ -358,6 +358,9 @@
         &__menu-btn {
             display: none;
         }
+        &__menu {
+            z-index: 9999999999999;
+        }
     }
     .menu {
         display: flex;
@@ -416,6 +419,7 @@
         &__link-list:hover + .menu__list-2{
             height: auto;
             padding: 20px 15px 15px;
+            z-index: 99999999999999999999999;
         }
         &__link-list {
             display: block;

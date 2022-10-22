@@ -23,13 +23,12 @@ const init = () => {
     qr.from('.hero__el--arrow', {height: 0, y: 25, duration: 1 ,ease: "bounce.out"})
 
     window.addEventListener('scroll', function() {
-      console.log(pageYOffset);
       if(pageYOffset > 2000) {
         qr.to('.elem-a10', {y: -50, duration: 0.7 })
         qr.to('.elem-a9', {y: -80, duration: 0.7 })
         qr.to('.elem-a8', {y: -50, duration: 0.7 })  
       }
-      if(pageYOffset > 2200) {
+      if(pageYOffset > 2400) {
         qr.from('.elem-a10', {y: 0 })
         qr.from('.elem-a9', {y: 0 })
         qr.from('.elem-a8', {y: 0})   
