@@ -31,6 +31,19 @@
     }
 }
 
+.menu {
+    &__list-2 {
+        &--active {
+            height: 154px;
+        }
+    }
+    &__link-list:hover + .menu__list-2{
+        height: auto;
+        padding: 20px 15px 15px;
+        z-index: 99999999999999999999999;
+    }
+}
+
 .lang {
     position: relative;
     margin-right: 40px;
@@ -126,7 +139,7 @@
     background-color: #171616;
     display: flex;
     z-index: 990;
-    transition-duration: .5s;
+    // transition-duration: .5s;
     &__close {
         position: absolute;
         top: 20px;
@@ -175,7 +188,7 @@
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
-        transition-duration: .5s;
+        // transition-duration: .5s;
         li {
             margin-top: 28px;
         }

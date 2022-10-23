@@ -23,9 +23,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuLinkLlist = document.querySelector('.menu__link-list')
     const menuList2 = document.querySelector('.menu__list-2')
 
-    menuLinkLlist.addEventListener('click', () => {
-        menuList2.classList.toggle('menu__list-2--active')
-    })
+    // menuLinkLlist.addEventListener('click', () => {
+    //     menuList2.classList.add('menu__list-2--active')
+    // })
+    // menuList2.addEventListener('mouseover ', () => {
+    //     menuList2.classList.remove('menu__list-2--active')
+    // })
 
     
 
