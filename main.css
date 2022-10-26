@@ -3647,10 +3647,6 @@ input[type="radio"].visually-hidden {
         -ms-flex-pack: justify;
             justify-content: space-between;
   }
-  .index-mission {
-    background-image: none;
-    padding-top: 88px;
-  }
 }
 
 .index-services {
@@ -3729,6 +3725,21 @@ input[type="radio"].visually-hidden {
   }
   .index-mission__text {
     padding-right: 0;
+  }
+}
+
+@media (min-width: 996px) {
+  .index-mission {
+    background-image: none;
+    padding-top: 88px;
+  }
+  .d-none-996 {
+    display: block;
+  }
+  .ret-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 /*# sourceMappingURL=main.css.map */

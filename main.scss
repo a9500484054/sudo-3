@@ -439,10 +439,7 @@
         display: flex;
         justify-content: space-between;
     }
-    .index-mission {
-        background-image: none;
-        padding-top: 88px;
-    }
+
 
 }
 
@@ -506,3 +503,18 @@
         padding-right: 0;
     }
 }
+
+
+@media (min-width: 996px) {
+    .index-mission {
+        background-image: none;
+        padding-top: 88px;
+    }
+    .d-none-996 {
+        display: block;
+    }
+    .ret-1 {
+        display: flex;
+    }
+}
+
