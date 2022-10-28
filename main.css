@@ -3742,4 +3742,65 @@ input[type="radio"].visually-hidden {
     display: flex;
   }
 }
+
+.calulations__text {
+  max-width: 934px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 137%;
+  /* or 33px */
+  letter-spacing: 0.02em;
+  color: #171616;
+}
+
+@media (min-width: 768px) {
+  .calulations__text {
+    font-size: 24px;
+    margin-bottom: 51px;
+  }
+  .services__text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .index-mission__flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.contacts__text-1 {
+  margin-top: 20px;
+  max-width: 450px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 137%;
+  /* or 22px */
+  letter-spacing: 0.02em;
+  color: #171616;
+}
+
+.index-mission {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.index-block {
+  padding: 20px;
+}
+
+@media (min-width: 768px) {
+  .contacts__text {
+    font-size: 20px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
