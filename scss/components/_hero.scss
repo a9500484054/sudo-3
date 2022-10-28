@@ -198,9 +198,11 @@
 .index-benefits {
     background-image: url('./images/jpg/bg_main-5.jpg');
     background-repeat: no-repeat;
-    background-size: 190% 391px;
-    background-position: -211px 75px;
+    // background-size: 190% 391px;
+    // background-position: -211px 75px;
 
+    background-size: 135%;
+    background-position: -118px 92px;
     // background-size: 1287px;
     &__block {
         
