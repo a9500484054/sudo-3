@@ -24,18 +24,29 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuList2 = document.querySelector('.menu__list-2')
 
     // menuLinkLlist.addEventListener('click', () => {
-    //     menuList2.classList.add('menu__list-2--active')
+        
     // })
-    // menuList2.addEventListener('mouseover ', () => {
+
+
+    // menuList2.addEventListener('mouseout', () => {
     //     menuList2.classList.remove('menu__list-2--active')
+    //     let i = 0
+    //     i++
+    //     if(i) {
+    //         console.log('тес-1')
+    //     }
     // })
-
-    
-
-
-
-
-
+    menuLinkLlist.addEventListener('mouseover', () => {
+        menuList2.classList.add('menu__list-2-dest--active')
+    })
+    menuLinkLlist.addEventListener('mouseout', () => {
+        menuList2.classList.remove('menu__list-2-dest--active')
+    })
+    menuLinkLlist.addEventListener('click', () => {
+        if(window.innerWidth < 800) {
+            menuList2.classList.toggle('menu__list-2--active')
+        }
+    })
 
 
 });

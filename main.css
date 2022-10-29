@@ -609,16 +609,6 @@ input[type="radio"].visually-hidden {
           order: 2;
 }
 
-.menu__list-2--active {
-  height: 154px;
-}
-
-.menu__link-list:hover + .menu__list-2 {
-  height: auto;
-  padding: 20px 15px 15px;
-  z-index: 99999999999999999999999;
-}
-
 .lang {
   position: relative;
   margin-right: 40px;
@@ -669,8 +659,6 @@ input[type="radio"].visually-hidden {
   position: absolute;
   height: 0;
   overflow: hidden;
-  -webkit-transition-duration: .5s;
-          transition-duration: .5s;
 }
 
 .lang__list button {
@@ -790,7 +778,7 @@ input[type="radio"].visually-hidden {
 }
 
 .menu__list-2 {
-  height: 0;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -816,7 +804,11 @@ input[type="radio"].visually-hidden {
 }
 
 .menu__list-2--active {
-  height: 154px;
+  display: block;
+}
+
+.menu__list-2:hover {
+  display: block;
 }
 
 .menu--active {
@@ -1020,9 +1012,6 @@ input[type="radio"].visually-hidden {
   .header__menu-btn {
     display: none;
   }
-  .header__menu {
-    z-index: 9999999999999;
-  }
   .menu {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1054,11 +1043,11 @@ input[type="radio"].visually-hidden {
     margin-right: 15px;
   }
   .menu__list-2 {
+    padding: 0 15px 0;
     position: absolute;
     top: 19px;
     left: -14px;
     width: 234px;
-    height: 0;
     background: #171616;
   }
   .menu__list-2 li {
@@ -1083,7 +1072,6 @@ input[type="radio"].visually-hidden {
   .menu__link-list:hover + .menu__list-2 {
     height: auto;
     padding: 20px 15px 15px;
-    z-index: 99999999999999999999999;
   }
   .menu__link-list {
     display: block;
@@ -3909,5 +3897,38 @@ input[type="radio"].visually-hidden {
   .about__block-23 {
     min-height: 488px !important;
   }
+  .mt-dest-110 {
+    margin-top: 110px;
+  }
+}
+
+@media (min-width: 800px) {
+  .menu__list-2-dest--active {
+    height: auto;
+    display: block;
+  }
+  .menu__list-2--active {
+    display: none;
+  }
+}
+
+.projects-card {
+  min-height: 320px;
+}
+
+.services__block h2 {
+  margin-top: 0;
+}
+
+.projects__block-1 {
+  margin-top: 0;
+}
+
+.index-benefits__title {
+  margin-bottom: 331px;
+}
+
+.services__info p {
+  font-size: 16px;
 }
 /*# sourceMappingURL=main.css.map */

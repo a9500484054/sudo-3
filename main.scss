@@ -635,6 +635,40 @@
     .about__block-23 {
         min-height: 488px!important;
     }
+    .mt-dest-110 {
+        margin-top: 110px;
+    }
+    
+}
+@media (min-width: 800px) {
+    .menu__list-2-dest--active {
+        height: auto;
+        display: block;
+    }
+    .menu__list-2--active {
+        display: none;
+    }
     
 }
 
+
+.projects-card {
+    min-height: 320px;
+}
+
+.services__block h2 {
+    margin-top: 0;
+}
+
+.projects__block-1 {
+    margin-top: 0;
+
+}
+
+.index-benefits__title {
+    margin-bottom: 331px;
+}
+
+.services__info p {
+    font-size: 16px;
+}
