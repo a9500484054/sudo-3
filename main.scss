@@ -638,6 +638,7 @@
     .mt-dest-110 {
         margin-top: 110px;
     }
+
     
 }
 @media (min-width: 800px) {
@@ -671,4 +672,32 @@
 
 .services__info p {
     font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .pt-50 {
+        padding-top: 50px !important;
+    }
+}
+
+.h-337 {
+    min-height: 337px !important;
+}
+
+.services__info h4 {
+    margin-bottom: 16px;
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+
+    .index-mission__text {
+        align-self: flex-start;
+        margin-right: auto;
+        margin-left: 200px;
+    }
+    
 }

@@ -2190,8 +2190,8 @@ input[type="radio"].visually-hidden {
 .reviews {
   background-image: url("./images/jpg/bg_reviews.jpg");
   background-repeat: no-repeat;
-  background-size: 910px 435px;
-  background-position: -129px 91px;
+  background-size: 100%;
+  background-position: 0;
 }
 
 .reviews__block div {
@@ -2315,11 +2315,11 @@ input[type="radio"].visually-hidden {
 }
 
 .publications {
-  min-height: 500px;
+  min-height: 300px;
   background-image: url("./images/jpg/bg_publicationspg.jpg");
   background-repeat: no-repeat;
-  background-size: 910px 435px;
-  background-position: -129px 91px;
+  background-size: 100%;
+  background-position: 0;
 }
 
 .publications__text {
@@ -3930,5 +3930,28 @@ input[type="radio"].visually-hidden {
 
 .services__info p {
   font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .pt-50 {
+    padding-top: 50px !important;
+  }
+}
+
+.h-337 {
+  min-height: 337px !important;
+}
+
+.services__info h4 {
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1200px) {
+  .index-mission__text {
+    -ms-flex-item-align: start;
+        align-self: flex-start;
+    margin-right: auto;
+    margin-left: 200px;
+  }
 }
 /*# sourceMappingURL=main.css.map */
