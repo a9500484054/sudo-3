@@ -3947,7 +3947,7 @@ input[type="radio"].visually-hidden {
 }
 
 @media (min-width: 1200px) {
-  .index-mission__text {
+  .index-mission__text-2 {
     -ms-flex-item-align: start;
         align-self: flex-start;
     margin-right: auto;
