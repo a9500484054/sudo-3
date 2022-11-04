@@ -464,3 +464,45 @@
     background-image: url('./images/svg/bg-7.svg');
     background-repeat: no-repeat;
  }
+
+@media (min-width: $screen-table) {
+    .block-1 { 
+        background-image: url('./images/svg/bg-1.svg');
+        background-repeat: no-repeat;
+        background-position: 100% 0px;
+     }
+    .block-2 { 
+        background-image: url('./images/svg/bg-2.svg');
+        background-repeat: no-repeat;
+        background-position: 100% 0px;
+     }
+    .block-3 { 
+        background-image: url('./images/svg/bg-3.svg');
+        background-repeat: no-repeat;
+        background-position: 100% 126px;
+     }
+    .block-4 { 
+        background-image: url('./images/svg/bg-4.svg');
+        background-repeat: no-repeat;
+        background-position: 3% 0px;
+     }
+    .block-5 { 
+        background-image: url('./images/svg/bg-5.svg');
+        background-repeat: no-repeat;
+        background-position: 49% -135px;
+     }
+    .block-6 { 
+        background-image: url('./images/svg/bg-6.svg');
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        background-size: cover;
+     }
+    .block-7 { 
+        background-image: url('./images/svg/bg-7.svg');
+        background-repeat: no-repeat;
+        background-position: 100% 0px;
+     }
+}
+@media (min-width: $screen-desktop) {
+
+}
